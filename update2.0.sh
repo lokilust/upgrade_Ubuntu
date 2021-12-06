@@ -41,6 +41,7 @@ done <<____HERE
     3:apt-get update               :update cache
     4:apt-get upgrade              :upgrade packages
     5:apt-get dist-upgrade         :upgrade distribution
-    6:apt-get --purge autoremove   :remove unused packages
-    7:apt-get autoclean            :clean up
+    6:do-release-upgrade           :do-release-upgrade
+    7:apt-get --purge autoremove   :remove unused packages
+    8:apt-get autoclean            :clean up
 ____HERE
